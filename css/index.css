@@ -1,10 +1,21 @@
 body {
     background-color: black;
+    text-align: center;
 }
 
 #title {
     color:#8b0000;
     font-family: "Wallpoet";
-    text-align: center;
+}
+
+#img-div {
+    width: 540px;
+    height: 809.5px;
+    margin: 0 auto;
+}
+
+#image {
+    max-width: 80%;
+    max-height: 80%
 }
 
