@@ -19,3 +19,10 @@ body {
     max-height: 80%
 }
 
+p {
+    color: white;
+}
+
+#img-caption {
+    font-style: italic;
+}
