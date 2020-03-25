@@ -29,6 +29,10 @@ ul {
     left: 30%;
 }
 
+li {
+    margin: 20px 0;
+}
+
 #img-caption {
     font-style: italic;
 }
