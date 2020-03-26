@@ -12,10 +12,16 @@ body {
     width: 540px;
     height: 809.5px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-    max-width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
     max-height: 90%;
 }
 
@@ -35,6 +41,8 @@ li {
 
 #img-caption {
     font-style: italic;
+    position: relative;
+    margin-top: auto;
 }
 
 #tribute-info {
